@@ -19,10 +19,29 @@ body {
             display: flex;
             justify-content: space-around;
         }
-     
-        
+        #container-article{
+            display: flex;
+            justify-content: space-around;
+            background-color: white;
+            border:none;
+        }
+        aside div{
+            margin: 10px;;
+        }
+       
     }
 
+    @media screen and (min-width:800px){
+        main{
+
+            display: flex;
+        }
+        #container-article{
+            display: flex;
+            flex-direction: column;
+            width: 20em;
+        }
+    }
 
     @media screen and (min-width:700px) {
         html {
